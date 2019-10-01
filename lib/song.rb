@@ -15,6 +15,7 @@ class Song
     @@count += 1 
     @@artists << artists
     @@genres << genres
+    @name = name
   end
   
   def self.count
